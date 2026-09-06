@@ -39,6 +39,11 @@ def test_readme_states_research_and_claim_zero():
         assert phrase not in text, f"uncapped product phrase present: {phrase}"
 
 
+def test_architecture_marked_intent_only():
+    text = (ROOT / "docs/architecture.md").read_text(encoding="utf-8")
+    assert "INTENT ONLY" in text
+
+
 def test_no_unimplemented_runtime_dirs_required():
     # Presence of empty product dirs is optional; do not fail if absent.
     assert True

@@ -10,7 +10,7 @@
 ## What exists today
 
 - Root README (this file)
-- `docs/architecture.md` — holarchy sketch
+- `docs/architecture.md` — holarchy sketch (intent only)
 - `docs/interfaces.md` — intended contracts (unimplemented)
 - `docs/security.md` — intended threat model (unimplemented)
 - `docs/open-questions.md` — unresolved design questions
@@ -47,10 +47,10 @@ Related OS-family sketches (also RESEARCH; do not treat any as canonical product
 
 | Field | Value |
 |-------|--------|
-| Version | 0.1.1 (docs + claim-cap; Sweep-068) |
+| Version | 0.1.2 (docs re-audit; Sweep-073) |
 | Created | 2026-08-26 |
-| Last sweep | 2026-09-05 Sweep-068 |
-| Tests / CI | Docs presence only |
+| Last sweep | 2026-09-06 Sweep-073 |
+| Tests / CI | Docs presence only (run 34003175517 success on Sweep-068 head) |
 | Promotion to ACTIVE | Blocked until purpose, tests+CI for real modules, SECURITY.md product surface, and evidenced claim level ≥ engineering |
 
 See `docs/` for contracts, threat-model notes, and open questions.

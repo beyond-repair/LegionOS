@@ -9,8 +9,8 @@ Open a private advisory or an issue on this repository. Do not file exploit how-
 ## Scope
 
 - In scope: claim language, documentation accuracy, future CI secrets hygiene.
-- Out of scope until implemented: Kubernetes NetworkPolicies, Stripe keys, agent sandbox escapes. Those items in `docs/security.md` are **design intent**, not deployed controls.
+- Out of scope until implemented: Kubernetes NetworkPolicies, payment-processor keys, agent sandbox escapes. Those items in `docs/security.md` are **design intent**, not deployed controls.
 
 ## Known issues
 
-None on the current docs-only tree (Sweep-068 scan: no lockfile, no runtime).
+None on the current docs-only tree (Sweep-073 scan: no lockfile, no runtime, no open Dependabot alerts expected).
