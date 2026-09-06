@@ -1,60 +1,56 @@
 # LegionOS
 
-**The Autonomous Company Operating System**
+**Classification:** RESEARCH  
+**Claim level:** 0 (Idea) per [ADL-Governance CLAIM_VALIDATION](https://github.com/beyond-repair/ADL-Governance/blob/main/docs/CLAIM_VALIDATION.md)  
+**Maturity:** 1 (architectural notes only)  
+**Governance:** [ADL-Governance](https://github.com/beyond-repair/ADL-Governance) · ADL-SEEM v3.0
 
-> "Tell LegionOS what company you want. Wake up to a deployed business."
+> This repository is an **unvalidated concept sketch**. It is not a deployed operating system, not a company, and not a revenue system. No autonomy, profitability, or uptime claim is evidenced.
 
-LegionOS is a fully autonomous, programmable distributed system that transforms a high-level idea into a deployed, revenue-generating business with minimal human intervention. It treats the entire company lifecycle as a unified, self-optimizing workflow.
+## What exists today
 
-## Core Architecture: 5-Layer Holarchy
+- Root README (this file)
+- `docs/architecture.md` — holarchy sketch
+- `docs/interfaces.md` — intended contracts (unimplemented)
+- `docs/security.md` — intended threat model (unimplemented)
+- `docs/open-questions.md` — unresolved design questions
+- Docs-existence CI (does not prove product behavior)
 
-| Layer              | Role                                      | Key Components                                      | Technologies                     |
-|--------------------|-------------------------------------------|-----------------------------------------------------|----------------------------------|
-| **Founder Brain**  | Strategic arbiter (CEO/CFO)               | LLM reasoning + deterministic state machines, budget & ROI guards | LangGraph, Python, FastAPI      |
-| **Builder Brain**  | Deterministic execution (CTO)             | Code generation, CI/CD, immutable infra             | FastAPI, Next.js, Docker, K8s   |
-| **Growth Brain**   | Stochastic execution (CMO)                | Ad copy, SEO, landing pages, A/B testing, acquisition | Python, Stripe, Google Ads API  |
-| **Operations Brain**| Day-2 loop (COO)                         | Billing, telemetry, support, scaling                | Stripe, Prometheus, Grafana     |
-| **Agent Factory**  | Infinite extensibility                    | Dynamic domain agents, plugin system, sandboxing    | Python, Neo4j, Qdrant           |
+## What does not exist
 
-**Company Knowledge Graph** (the moat): Neo4j (relationships) + Qdrant (vectors) with hard tenant isolation and optional differential-privacy sharing.
+There is **no** Founder/Builder/Growth/Operations/Agent Factory implementation, no Knowledge Graph, no sandbox, no billing, no ads integration, no tenants, and no measured MVA phase.
 
-## Minimal Viable Autonomy (MVA) Phases
+The directory layout listed in earlier drafts (`brains/`, `knowledge_graph/`, `sandbox/`, `mva/`) is a **target sketch**, not a present tree.
 
-1. Founder Brain MVP – autonomous $1k spend decisions with ROI projection
-2. Builder + Growth Integration – idea → first customer < 24 h
-3. Operations Brain – Stripe + telemetry + 99.9 % uptime
-4. Agent Factory – 3 custom agents handling 80 % of tasks
-5. Knowledge Graph – queryable insights across 10k companies
-6. Full Autonomy Test – 10 companies end-to-end, 70 % profitable in 30 days
+## Intended architecture (unverified)
 
-## Repository Structure (Initial)
+Concept-only 5-layer holarchy:
 
-```
-LegionOS/
-├── README.md
-├── docs/
-│   ├── architecture.md
-│   ├── interfaces.md
-│   └── security.md
-├── brains/
-│   ├── founder/
-│   ├── builder/
-│   ├── growth/
-│   ├── operations/
-│   └── agent_factory/
-├── knowledge_graph/
-│   ├── neo4j/
-│   └── qdrant/
-├── sandbox/
-│   └── k8s/
-└── mva/
-    └── phase1/
-```
+| Layer | Intended role | Implementation status |
+|-------|---------------|------------------------|
+| Founder Brain | Strategic / budget gates | Not implemented |
+| Builder Brain | Code + deploy | Not implemented |
+| Growth Brain | Acquisition | Not implemented |
+| Operations Brain | Billing + telemetry | Not implemented |
+| Agent Factory | Extensible agents | Not implemented |
+
+Related OS-family sketches (also RESEARCH; do not treat any as canonical product):
+
+- [RealityOS](https://github.com/beyond-repair/RealityOS)
+- [Sovereign-OS](https://github.com/beyond-repair/Sovereign-OS)
+- [SovereignOS](https://github.com/beyond-repair/SovereignOS)
+- Mapping: [os-family-constitution-map](https://github.com/beyond-repair/os-family-constitution-map)
+
+`Auto_Legion` is **SUPERSEDED** toward `sovereign-clean-room` (work-unit patterns), not a LegionOS runtime.
 
 ## Status
 
-**Version**: 0.1 (Architectural Baseline)  
-**Created**: 2026-08-26  
-**Governance**: ADL-SEEM v3.0
+| Field | Value |
+|-------|--------|
+| Version | 0.1.1 (docs + claim-cap; Sweep-068) |
+| Created | 2026-08-26 |
+| Last sweep | 2026-09-05 Sweep-068 |
+| Tests / CI | Docs presence only |
+| Promotion to ACTIVE | Blocked until purpose, tests+CI for real modules, SECURITY.md product surface, and evidenced claim level ≥ engineering |
 
-See `docs/` for detailed contracts, threat models, and open questions.
+See `docs/` for contracts, threat-model notes, and open questions.
