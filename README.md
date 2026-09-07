@@ -47,10 +47,11 @@ Related OS-family sketches (also RESEARCH; do not treat any as canonical product
 
 | Field | Value |
 |-------|--------|
-| Version | 0.1.2 (docs re-audit; Sweep-073) |
+| Version | 0.1.3 (Sweep-095 re-confirm) |
 | Created | 2026-08-26 |
-| Last sweep | 2026-09-06 Sweep-073 |
-| Tests / CI | Docs presence only (run 34003175517 success on Sweep-068 head) |
-| Promotion to ACTIVE | Blocked until purpose, tests+CI for real modules, SECURITY.md product surface, and evidenced claim level ≥ engineering |
+| Last sweep | 2026-09-07 Sweep-095 |
+| Tests / CI | Docs presence only (run **34036540383** success on `5d471c16`) |
+| Releases / tags | none |
+| Promotion to ACTIVE | Blocked until purpose, tests+CI for real modules, product SECURITY surface, and evidenced claim level ≥ engineering |
 
 See `docs/` for contracts, threat-model notes, and open questions.
