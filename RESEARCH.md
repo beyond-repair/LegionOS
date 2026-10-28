@@ -1,6 +1,6 @@
 # RESEARCH classification — LegionOS
 
-Assigned: **RESEARCH** (Sweep-068; confirmed Sweep-073 and Sweep-095).
+Assigned: **RESEARCH** (Sweep-068; confirmed Sweep-073, Sweep-095, Sweep-567).
 
 ## Justification
 
@@ -8,7 +8,7 @@ Assigned: **RESEARCH** (Sweep-068; confirmed Sweep-073 and Sweep-095).
 - README previously used product language ("fully autonomous", "revenue-generating", MVA profitability targets) without measurement.
 - Claim level **0** (Idea). Software readiness is independent and currently docs-CI only.
 - Sibling OS sketches exist; none is the ACTIVE product authority.
-- Sweep-095 re-audit: no new runtime files, no tags, no releases, no Dependabot surface. Latest docs-ci run **34036540383** success on `5d471c16`.
+- Sweep-567 re-audit: no new runtime files, no tags, no releases, no Dependabot surface. Latest docs-ci run **36847754196** success on `9f795f65`.
 
 ## Forbidden claims until evidenced
 
