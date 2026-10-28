@@ -63,10 +63,10 @@ Related OS-family sketches (also RESEARCH; do not treat any as canonical product
 
 | Field | Value |
 |-------|--------|
-| Version | 0.1.3 (Sweep-095 re-confirm) |
+| Version | 0.1.3 (Sweep-567 re-confirm) |
 | Created | 2026-08-26 |
-| Last sweep | 2026-09-07 Sweep-095 |
-| Tests / CI | Docs presence only (run **34036540383** success on `5d471c16`) |
+| Last sweep | 2026-10-27 Sweep-567 |
+| Tests / CI | Docs presence only (run **36847754196** success on `9f795f65`) |
 | Releases / tags | none |
 | Promotion to ACTIVE | Blocked until purpose, tests+CI for real modules, product SECURITY surface, and evidenced claim level ≥ engineering |
 
